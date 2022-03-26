@@ -17,9 +17,7 @@ const Content = (props) => {
   return (
     <div>
       {parts.map((part) => (
-        <p>
-          {part.name} {part.exercises}
-        </p>
+        <Part data={part} />
       ))}
     </div>
   );
